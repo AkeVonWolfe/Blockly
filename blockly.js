@@ -1,5 +1,5 @@
 var Variable1, Variable2, Variable3, Variable4, x, y;
-var variable7, variable8, variable9a, variable9b, variable9c, variable10, Variable12, month, variable14, variable15, variable16a, variable16b;
+var variable7, variable8, variable9a, variable9b, variable9c, variable10, Variable12, month, variable14, variable15, variable16a, variable16b, a;
 
 
 console.log('andreas')
@@ -71,3 +71,11 @@ while (variable16a < 10) {
   variable16b = variable16b * 2;
 }
 console.log(variable16b)
+a = 1;
+while (false) {
+  while (false) {
+    a = a + 2;
+  }
+  a = a + 1;
+}
+console.log(a)
